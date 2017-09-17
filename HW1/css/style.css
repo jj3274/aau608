@@ -1,191 +1,40 @@
-
 body {
-    background-color: #fcf4df;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 14px;
-    margin: auto;
-    min-width: 960px;
-    padding: 0;
-}
-
-a {
-	font-family: 'Josefin Sans', sans-serif;
-    outline: none;
+  margin: 10px;
 }
 
 img {
-    border: 0;
-}
-
-p {
-    margin: auto;
-    line-height: 24px;
-}
-
-ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-h2 {
-    margin: 0;
-}
-
-div.header {
-    background: url(../images/stripe1.gif) repeat-x left top;
-    height: 145px;
-    margin: 0 auto;
-    overflow: hidden;
-    width: 960px;
-}
-
-div.header div {
-/*    float: left;
-*/    margin: 39px 0 0;
-}
-
-div.header #main-title {
-	color: #f1761f;
-    font-family:'Josefin Sans', sans-serif;
-    font-size: 60px;
-    letter-spacing: 0.075em;
-    line-height: 70px;
-    text-align: center;
-}
-
-div.header div a,
-div.body div div:first-child a,
-div.body div:first-child div.footer ul li a,
-div.body div:first-child div.body div a {
-    display: inline-block;
-}
-
-div.body {
-    margin: auto;
-    overflow: hidden;
-    width: 960px;
-}
-
-div.body div:first-child {
-    /*float: left;*/
+    width: 100%;
     height: auto;
-    margin: auto;
-    width: 716px;
 }
 
-div.body div:first-child div.body {
-    background: none;
-    /*float: none;*/
-    height: auto;
-    /*margin: 0;*/
-    width: auto;
+.container {
+    position: relative;
 }
 
-div.body div:first-child div.body div {
-    background: url(../images/bg-gallery.png) repeat-y;
-    border-radius: 8px 8px 0 0;
-    height: 427px;
+.header-title {
+    position: absolute;
+    top: 40%;
+    left: 10%;
 }
 
-div.body div:first-child div.body div a img {
-    /*margin: 1px 1px 0 4px;*/
-}
-
-div.body div:first-child div.footer {
-    background: none;
-    /*float: none;*/
-    height: auto;
-    /*margin: 24px 0 0;*/
-    width: auto;
-}
-
-div.body div:first-child div.footer ul {
-    /*margin: 25px 0 0;*/
-    overflow: hidden;
-}
-
-div.body div:first-child div.footer ul:first-child {
-    /*margin: 0;*/
-}
-
-div.body div:first-child div.footer ul li {
-    background: url(../images/bg-frame.png) no-repeat center top;
-    border-radius: 3px;
+.recipe {
     float: left;
-    height: 306px;
-    margin: 0 0 0 24px;
-    padding: 0 3px 0;
-    width: 340px;
+    width: 49%;
+    padding: 1%;
 }
 
-div.body div:first-child div.footer ul li h2 {
-    font-family: "Times New Roman", Times, serif;
-    font-size: 20px;
-    height: 49px;
-    letter-spacing: 0.025em;
-    line-height: 49px;
-    text-transform: uppercase;
+.recipe.left {
+	padding-left: 0px;
 }
 
-div.body div:first-child div.footer ul li h2 a {
-    color: #27843d;
-    display: block;
-    text-align: center;
-    text-decoration: none;
-    text-shadow: 0 1px #f7f0e7;
-}
-
-div.body div:first-child div.footer ul li img {
-    border-bottom: 1px solid #fcda55;
-    border-top: 1px solid #fcda55;
-}
-
-div.body div:first-child div.footer ul li:first-child {
-    margin: 0;
-}
-
-div.body div {
-    /*float: right;*/
-    height: auto;
-    width: 215px;
-}
-
-div.body div div {
-    float: none;
-    /*margin: 20px 0 0;*/
-}
-
-div.body div div:first-child {
-    float: none;
-    height: auto;
-    margin: 0;
-    width: auto;
-}
-
-div.body div div:first-child img {
-    /*margin: 10px 0 0;*/
-}
-
-div.footer div {
-	margin: auto;
-    height: 80px;
-    width: 716px;
-}
-
-div.footer div p {
-    color: #aaa292;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 13px;
-    letter-spacing: 0.075em;
-    line-height: 70px;
-    text-align: center;
-}
-
-.recipe-image {
-	position: absolute;
+.recipe.right {
+	padding-right: 0px;
 }
 
 .recipe-title {
-	position: relative;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
+
