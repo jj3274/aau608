@@ -1,11 +1,57 @@
+/* commmon */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
 body {
-  margin: 10px;
+    margin: 10px;
+    background: linear-gradient(to bottom, #fef3dd 0%, #ffffff 100%);
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 img {
     width: 100%;
     height: auto;
 }
+
+ul {
+    margin: auto;
+}
+
+nav ul {
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 2em;
+}
+
+nav li last-child {
+    margin-right: 0;
+}
+
+/* common font */
+
+.paragraph-base-font {
+	font-family: 'Raleway', sans-serif;
+    font-size: 10px;
+    color: gray;
+}
+
+.paragraph-title {
+    font-weight: bold;
+    color: black;
+}
+
+
+/* index.html */
 
 .container {
     position: relative;
@@ -15,6 +61,7 @@ img {
     position: absolute;
     top: 40%;
     left: 10%;
+    font-size: 36px;
 }
 
 .recipe {
@@ -24,11 +71,11 @@ img {
 }
 
 .recipe.left {
-	padding-left: 0px;
+    padding-left: 0px;
 }
 
 .recipe.right {
-	padding-right: 0px;
+    padding-right: 0px;
 }
 
 .recipe-title {
@@ -38,3 +85,55 @@ img {
     transform: translate(-50%, -50%);
 }
 
+.left-float {
+    float: left;
+    text-align: left;
+}
+
+.right-float {
+    float: right;
+    text-align: left;
+}
+
+.left-float li {
+    margin-left: 0px;
+}
+
+.right-float li {
+    margin-right: 0px;
+}
+
+
+/* grilled-menu.html */
+
+.grilled-menu-top {
+    padding-bottom: 20px;
+}
+
+.grilled-menu-top img {
+    width: 20px;
+}
+
+.grilled-menu-top li {
+    margin: 40px;
+}
+
+.food {
+    width: 60%;
+    margin: auto;
+}
+
+.food-list {
+    width: 50%;
+    list-style-type: none;
+    padding-top: 50px;
+    font-size: 18px;
+}
+
+.food-list li {
+    margin: 20px 10px;
+    background-image: linear-gradient(to right, black 33%, rgba(255, 255, 255, 0) 0%);
+    background-position: bottom;
+    background-size: 3px 1px;
+    background-repeat: repeat-x;
+}
