@@ -1,24 +1,18 @@
 
 .product-title { 
-/*-webkit-flex: initial;*/
-  /*flex: initial;*/
-  position: relative;
-  left: 0;
-  right: 150px;
+  -webkit-flex: 1;
+          flex: 1;
   min-width: 200px;
+  display: flex;
+  align-items: center;
 }
 
 .product-title h1 {
 	width: 250px;
 }
 
-.product-title p {
-}
-
 .buy-button {
-	float: right;
+	right: 0;
 	width: 150px;
 	padding: 6px 2px;
 }
-
-
