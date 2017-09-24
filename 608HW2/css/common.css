@@ -1,0 +1,129 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    font-size: 100%;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+}
+
+p {
+    /*    display:table-cell;
+    vertical-align: middle;
+  text-align: center; 
+*/
+}
+
+
+
+
+a {
+    color: inherit;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button {
+    background-color: #e58c3d;
+    border: none;
+    color: white;
+    padding: 6px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 2px;
+    cursor: pointer;
+    border-radius: 2px;
+    float: right;
+}
+
+.header {
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 8px 30px;
+    min-height: 48px;
+    margin: 0 auto;
+    max-width: 1040px;
+}
+
+user agent stylesheet
+}
+
+.card:first-child {
+    margin-top: 0;
+}
+
+.card>:last-child {
+    margin-bottom: 0;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    height: auto;
+}
+
+.centered-child {
+    position: relative;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, 0%);
+    -moz-transform: translate(-50%, 0%);
+}
+/*.none {
+  -webkit-flex: none;
+          flex: none;
+  width: 200px;
+}
+.flex1 {
+  -webkit-flex: 1;
+          flex: 1;
+}*/
+
+.flex-parent {
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    /* vertical centered items */
+    /*justify-content: center  /* horizontal centered items */
+    /*justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly;*/
+
+    justify-content: space-around;
+}
+
+.flex-child {
+    flex: 1 1 auto;
+}
+
+.flex-none {
+    flex: none;
+}
+
+.dual-box img {
+    max-width: 100%;
+}
+
+.dual-box .box {
+    width: 50%;
+    flex: 1 1 auto;
+    padding: 30px;
+}
+
+.dual-box h2,
+.dual-box p {
+    margin: 0;
+}

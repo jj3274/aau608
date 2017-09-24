@@ -1,0 +1,24 @@
+
+.product-title { 
+/*-webkit-flex: initial;*/
+  /*flex: initial;*/
+  position: relative;
+  left: 0;
+  right: 150px;
+  min-width: 200px;
+}
+
+.product-title h1 {
+	width: 250px;
+}
+
+.product-title p {
+}
+
+.buy-button {
+	float: right;
+	width: 150px;
+	padding: 6px 2px;
+}
+
+
