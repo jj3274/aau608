@@ -69,6 +69,7 @@ th {
     text-align: left;
 }
 
+
 .vertical-align-middle {
     display: flex;
     flex-direction: column;
@@ -96,7 +97,7 @@ th {
 
 .centered-child {
     margin-top: 20px;
-    width: 60%;
+    width: 80%;
     position: relative;
     top: 20%%;
     left: 50%;
