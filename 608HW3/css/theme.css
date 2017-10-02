@@ -19,8 +19,7 @@
     opacity: 0.6;
     width: 400px;
     margin-right: 20px;
-    left: 20px;
-    top: 100px;
+    top: 30px;
     line-height: 1.2;
 }
 
@@ -45,4 +44,12 @@
 
 img.product-photo {
     max-width: 350px;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .product-photo-view .product-text {
+        left: 20px;
+        top: 100px;
+    }        
 }
