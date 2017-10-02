@@ -100,20 +100,22 @@ th {
 } 
 
 .row p{
-    width: 80%;
+    width: 100%;
     flex: 1 1 auto;
     padding: 10px;
     line-height: 1.7;
     color: gray;
     margin: 0;
-    align-items: center;
-}
+    text-align: center;
+ }
 
 .row h2{
+    margin-top: 3rem; 
     font-weight: bold;
     font-size: 30px;
     color: black;
     padding-left: 15px;
+    text-align: center;
 
 }
 
@@ -123,12 +125,7 @@ th {
     margin-left: auto;
     margin-right: auto;
  }
- .row-second{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
- }
-
+ 
 /*.dual-box img {
     max-width: 100%;
 }
