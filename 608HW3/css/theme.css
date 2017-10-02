@@ -1,5 +1,5 @@
-.buy-button {
-    background-color: #b7b7b7;
+.product-photo-view button {
+    background-color: #f96187;
     border: none;
     color: white;
     padding: 10px 26px;
@@ -12,11 +12,7 @@
     border-radius: 2px;
 }
 
-.view-window {
-    position: relative;
-}
-
-.view-window .text-float {
+.product-photo-view .text-float {
     font-family: 'Open Sans', sans-serif;
     font-size: 36px;
     color: #ffffff;
@@ -28,6 +24,18 @@
     top: 50%;
     line-height: 1.2;
 }
+
+.product-photo-view {
+    height:100vh;
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+    background-image: url(../images/Phone-Photography_1.jpg);
+    position:relative;
+/*    background-position-y: 0px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+*/}
 
 .spec-title {
     font-size: 24px;

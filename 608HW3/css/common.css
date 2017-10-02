@@ -34,8 +34,15 @@ th {
     padding: 40px;
 }
 
+.p-md-3 h1  {
+    color: #ffffff;
+    opacity: 0.8;
+}
 
-
+.align-self-center {
+    color: #ffffff;
+    opacity: 0.8;
+}
 th {
     font-weight: bold;
     font-size: 18px;
@@ -47,14 +54,6 @@ th {
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-
-.view-window {
-    height:80vh;
-    background-size:cover;
-    background-position:center;
-    background-attachment:fixed;
-    position:relative;
 }
 
 .fixed-center {
@@ -80,10 +79,9 @@ th {
 }
 
 .description p {
-    font-weight: bold;
-    font-size: 26px;
-    color: black;
-    width: 60%;
+    font-size: 20px;
+    color: #f96187;
+    width: 70%;
     position: relative;
     top: 20%%;
     left: 50%;
@@ -104,6 +102,10 @@ th {
     justify-content: space-around;
 }
 
+.dual-box {
+    float:right;
+    float:left;
+}
 
 .dual-box img {
     max-width: 100%;
