@@ -13,8 +13,8 @@
 </head>
 
 <body>
-    <header class="product-photo-view">
-        <div class="d-flex justify-content-start">
+    <header class="container-fluid product-photo-view">
+        <div class="d-flex justify-content-start p-2">
             <div class="d-md-flex">
                 <div class="p-md-3">
                     <h1>Apple iPhone 7</h1>
@@ -23,9 +23,11 @@
             </div>
             <button class="ml-auto p-2 align-self-center">Buy now</button>
         </div>
-        <div>
-            <img class="centered-child" src="images/iphone_black_re.png" alt="">
-            <div class="text-float">
+        <!-- no-gutters removes the padding, but it should be at .row -->
+        <div class="row flex-nowrap no-gutters">
+            <div class="col-4"></div>
+            <img class="col-4 img-responsive product-photo" src="images/iphone_black_fit.png" alt="" width="350" height="446">
+            <div class="col-4 product-text">
                 THE FUTURE OF PHOTOGRAPHY
             </div>
         </div>

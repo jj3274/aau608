@@ -12,16 +12,15 @@
     border-radius: 2px;
 }
 
-.product-photo-view .text-float {
+.product-photo-view .product-text {
     font-family: 'Open Sans', sans-serif;
     font-size: 36px;
     color: #ffffff;
     opacity: 0.6;
     width: 400px;
-    position: absolute;
     margin-right: 20px;
-    right: 1px;
-    top: 50%;
+    left: 20px;
+    top: 100px;
     line-height: 1.2;
 }
 
@@ -32,10 +31,7 @@
     background-attachment:fixed;
     background-image: url(../images/Phone-Photography_1.jpg);
     position:relative;
-/*    background-position-y: 0px;
-    background-repeat: no-repeat;
-    background-size: 100%;
-*/}
+}
 
 .spec-title {
     font-size: 24px;
@@ -47,3 +43,6 @@
     padding-top: 10px;
 }
 
+img.product-photo {
+    max-width: 350px;
+}
