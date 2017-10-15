@@ -88,8 +88,6 @@ th {
     display: -webkit-flex;
     display: flex;
     align-items: center;
-    /*margin-left: 80px;
-    margin-right: 80px;*/
     justify-content: space-around;
     margin-bottom: 70px;
 }
@@ -126,24 +124,3 @@ th {
     margin-right: auto;
  }
  
-/*.dual-box img {
-    max-width: 100%;
-}
-
-.dual-box .box {
-    width: 50%;
-    flex: 1 1 auto;
-    padding: 30px;
-}
-
-.dual-box h2 {
-    font-weight: bold;
-    font-size: 30px;
-    color: black;
-}
-
-.dual-box p {
-    line-height: 1.7;
-    color: gray;
-    margin: 0;
-}*/
