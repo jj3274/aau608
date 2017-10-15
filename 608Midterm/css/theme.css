@@ -1,0 +1,55 @@
+.product-photo-view button {
+    background-color: #f96187;
+    border: none;
+    color: white;
+    padding: 10px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 4px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.product-photo-view .product-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    color: #ffffff;
+    opacity: 0.6;
+    width: 400px;
+    margin-right: 20px;
+    top: 30px;
+    line-height: 1.2;
+}
+
+.product-photo-view {
+    height:100vh;
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+    background-image: url(../images/Phone-Photography_1.jpg);
+    position:relative;
+}
+
+.spec-title {
+    font-size: 24px;
+    background-color: #b7b7b7;
+    width: 100%;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+img.product-photo {
+    max-width: 350px;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .product-photo-view .product-text {
+        left: 20px;
+        top: 100px;
+    }        
+}
