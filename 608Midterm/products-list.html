@@ -2,42 +2,49 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
+   <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <script scr="js/jquery-3.2.1.slim.min.js"></script>
-    <script scr="js/bootstrap.min.js"></script>
-    <script scr="js/tether.js"></script>
+    <link rel="stylesheet" href="css/font-awesome/font-awesome/css/font-awesome.min.css">
     <title>iot devices for smart home</title>
 </head>
 
 <body id="products-list">
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="index.html">
-                <img src="images/logo-placeholder.jpg" alt="logo">
-                Smart Home
-            </a>
-            <ul class="nav">
-                <div class="dropdown">
-                    <li class="nav-item"><a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">SHOP BY ROOM</a></li>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#">Living Room</a>
-                        <a class="dropdown-item" href="#">BedRoom</a>
-                        <a class="dropdown-item" href="#">Kitchen</a>
-                        <a class="dropdown-item" href="#">Outside of Home</a>
-                    </div>
-                </div>
-                <li class="nav-item"><a class="nav-link" href="#">IOT PRODUCTS</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">BLOG</a></li>
-            </ul>
-            <form class="form-inline">
-                <input class="form-control" placeholder="Search">
-            </form>
-            <img src="images/cart.png" alt="cart">
+    <nav class="navbar navbar-toggleable-md navbar-light bg-faded fixed-top">
+        <div class="container navbar-collapse" id="navbarSupportedContent">
+            <div class="col-3">
+                <a class="navbar-brand" href="index.html">
+                <img src="images/logo.png" alt="logo">      
+            </a></div>
+            <div class="col-6">
+                <ul class="nav justify-content-around">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" id="Preview" href="#" role="button" aria-haspopup="true" aria-expanded="false">Products & Services</a>
+                        <div class="dropdown-menu" aria-labelledby="Preview">
+                            <a class="dropdown-item" href="#">Control</a>
+                            <a class="dropdown-item" href="#">Security & Cameras</a>
+                            <a class="dropdown-item" href="#">Lights & Appliances</a>
+                            <a class="dropdown-item" href="#">Sensors</a>
+                        </div>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="how-to-install.html">How to install</a></li>
+                    <li class="nav-item"><a class="nav-link" href="connect.html">Connect</a></li>
+                </ul>
+            </div>
+            <div class="col-3">
+                <ul ul class="nav">
+                    <li class="nav-item">
+                        <form class="form-inline">
+                            <input class="form-control" placeholder="Search">
+                        </form>
+                    </li>
+                    <li class="nav-item center ml-2"><i class="fa fa-shopping-cart"></i></li>
+                </ul>
+            </div>
+        </div>
         </div>
     </nav>
     <div class="container" id="products">
@@ -125,6 +132,11 @@
     <footer>
         <button>Help</button>
     </footer>
+    <script src="js/jquery-3.2.1.slim.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/tether.js"></script>
+    <script src="js/script.js"></script>
 </body>
+
 
 </html>

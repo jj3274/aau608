@@ -1,6 +1,11 @@
 /* common */
+body{
+    color: #212539;
+    line-height: 1.8;
+    font-size: 18px;
 
-h2 {
+}
+h2,h3{
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -8,6 +13,7 @@ hr {
     padding: 0px;
     margin: 0px;
 }
+
 
 .center {
     margin: auto;
@@ -20,26 +26,34 @@ hr {
     margin-left: auto;
 }
 
-.footer button {
-    align-items: right;
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    background-color: gray;
 }
 
-.navbar {
-    color: white;
-    font-family: 'Montserrat', sans-serif;
+footer img {
+    
+    width: 30px;
 }
 
 .navbar.fixed-top.scrolled {
-  background-color: #fff !important;
-  transition: background-color 200ms linear;
+    background-color: #fff !important;
+    transition: background-color 200ms linear;
 }
 
 .navbar img {
     width: 64px;
 }
 
+.navbar {
+    height: 80px;
+}
+
 .nav-link {
-    color: white;
+    color: #5b5b5b;
 }
 
 .navbar-brand img {
@@ -47,7 +61,11 @@ hr {
 }
 
 
+
+
+
 /* common table format */
+
 .table {
     table-layout: fixed;
     word-wrap: break-word;
@@ -60,6 +78,9 @@ hr {
 }
 
 
+
+
+
 /* carousel component */
 
 .carousel-indicators li {
@@ -67,6 +88,9 @@ hr {
     height: 10px;
     width: 10px;
 }
+
+
+
 
 
 /* qty change component */
@@ -89,16 +113,49 @@ hr {
 
 /* index (landing) page */
 
-.background-image {
-    height: 1000px;
-    background-image: url('../images/livingRm.jpg');
+#landing-page .dropdown-item{
+    font-size: 14px;
+    color: #212529;
+}
+#landing-page {
+    padding-top: 70px;
+    font-size: 14px;
+}
+
+#landing-page .jumbotron {
+    background-image: url('../images/kitchen_re.jpg');
+    background-size: cover;
+
     width: 100%;
     position: absolute;
     top: 0;
     z-index: -100;
+    min-height: 700px;
+    /*background-attachment: scroll;*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
+    /*-moz-background-size: cover;*/
 }
 
+#landing-page .form-control {
+    width: 150px;
+}
 
+#landing-page .background-intro {
+    padding-top: 950px;
+}
+.background-intro p{
+    font-size: 20px;
+    color:#a5a5a5;
+}
+.my-text{
+font-size: 18px;
+  color:white;
+  height:40px;
+  width:200px;
+  background-color: #8d97aa;
+  text-align: center;
+}
 /* products-list page */
 
 #products-list #products img {
@@ -115,10 +172,17 @@ hr {
 
 
 
+
+
+
 /* products-single page */
 
-#products-single .second {
-    padding-top: 3em;
+#products {
+    padding-top: 5em;
+}
+
+#product-section {
+    margin-top: 10em;
 }
 
 #products-single #product-section .row {
@@ -133,3 +197,44 @@ hr {
 #cart .img-thumbnail {
     width: 50%;
 }
+
+#carouselExampleIndicators {
+    padding-left: 15px;
+}
+
+
+/* what is this ???? */
+
+.featured {
+    margin-top: 100px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+}
+
+
+
+/* custom media queries */
+
+
+/*Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) {}
+
+
+/*Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) {}
+
+
+/*Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) {
+    .jumbotron {
+        height: 1000px;
+    }
+}
+
+
+/*Extra large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1200px) {}
