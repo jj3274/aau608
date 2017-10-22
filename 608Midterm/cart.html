@@ -38,44 +38,65 @@
             <img src="images/cart.png" alt="cart">
         </div>
     </nav>
-    <div class="container center main">
-        <div class="row justify-content-around mt-5" style="height:80px;">
-            <h4 class="mt-4">Shopping cart</h4>
-        </div>
-        <hr></hr>
-        <div class="row">
+    <div class="main">
+        <div class="container center">
+            <div class="row justify-content-around mt-5" style="height:80px;">
+                <h4 class="mt-4">Shopping cart</h4>
+            </div>
             <hr></hr>
-            <div class="col-3"></div>
-            <div class="col-3">
-                Price
-            </div>
-            <div class="col-3">
-                Quantity
-            </div>
-            <div class="col-3">
-                Total
-            </div>
-        </div>
-        <hr></hr>
-        <div class="row align-items-center mt-5 mb-5">
-                <img class="col-3" src="images/image.png" class="img-thumbnail">
-            <div class="col-3">
-                <h5 class="center">$199.00</h5>
-            </div>
-            <div class="col-3">
-                <div class="row">
-                    <div class="center-block qty-changer">
-                        <button class="qty-change-minus">-</button>
-                        <input id="qty-input" type="number" value="1" />
-                        <button class="qty-change-plus">+</button>
-                    </div>
+            <div class="row">
+                <hr></hr>
+                <div class="col-3"></div>
+                <div class="col-3">
+                    Price
+                </div>
+                <div class="col-3">
+                    Quantity
+                </div>
+                <div class="col-3">
+                    Total
                 </div>
             </div>
-            <div class="col-3">
-                <h5 class="center">$199.00</h5>
+            <hr></hr>
+            <div class="row align-items-center mt-3 mb-3">
+                <div class="col-3">
+                    <img class="img-thumbnail" src="images/image.png">
+                </div>
+                <div class="col-3">
+                    $199.00
+                </div>
+                <div class="col-3">
+                    <div class="row">
+                        <div class="center-block qty-changer">
+                            <button class="qty-change-minus">-</button>
+                            <input id="qty-input" type="number" value="1" />
+                            <button class="qty-change-plus">+</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    $199.00
+                </div>
             </div>
+            <hr></hr>
+            <div class="row font-weight-bold mt-2 mb-2">
+                <div class="col-3"></div>
+                <div class="col-3"></div>
+                <div class="col-3">
+                    <h5 class="center">Subtotal</h5></div>
+                <div class="col-3">
+                    <h5 class="center">$199.00</h5></div>
+            </div>
+            <hr></hr>
         </div>
-        <div class="row">
+        <div class="row mt-3">
+            <div class="col-3"></div>
+                <div class="col-3"></div>
+                <div class="col-3 center">
+            <a href="products-list.html"><u>continue shopping</u></a></div>
+       
+        <div class="col-3">
+            <a href="cart.html"><button type="button" class="btn btn-primary btn-rounded">CHECKOUT</button></a>
         </div>
     </div>
     <nav class="navbar navbar-default navbar-bottom mt-5" role="navigation">
