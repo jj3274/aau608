@@ -1,10 +1,11 @@
 /* common */
 body{
-    color: #212539;
+    color: #727272;
     line-height: 1.8;
     font-size: 18px;
-
+    margin-bottom: 200px;
 }
+
 h2,h3{
     font-family: 'Montserrat', sans-serif;
 }
@@ -14,7 +15,11 @@ hr {
     margin: 0px;
 }
 
-
+ul.nav > li > a:hover {
+    
+    color: #8d97aa;
+    border-style: none;
+}
 .center {
     margin: auto;
     text-align: center;
@@ -35,7 +40,7 @@ hr {
 }
 
 footer img {
-    
+
     width: 30px;
 }
 
@@ -49,7 +54,7 @@ footer img {
 }
 
 .navbar {
-    height: 80px;
+    /*height: 80px;*/
 }
 
 .nav-link {
@@ -60,8 +65,14 @@ footer img {
     width: 200px;
 }
 
+.nav-item, .dropdown-menu {
+    font-size: 14px;
+    color: #212529;
+}
 
-
+.dropdown-item:active {
+    background-color: #c3d7ff;
+}
 
 
 /* common table format */
@@ -101,6 +112,7 @@ footer img {
     border-radius: 50%;
     background: #fff;
     border: 1px solid #e3e3e3;
+    text-align: center;
 }
 
 #qty-input {
@@ -112,11 +124,6 @@ footer img {
 
 
 /* index (landing) page */
-
-#landing-page .dropdown-item{
-    font-size: 14px;
-    color: #212529;
-}
 #landing-page {
     padding-top: 70px;
     font-size: 14px;
@@ -131,10 +138,6 @@ footer img {
     top: 0;
     z-index: -100;
     min-height: 700px;
-    /*background-attachment: scroll;*/
-    /*background-repeat: no-repeat;*/
-    /*background-size: cover;*/
-    /*-moz-background-size: cover;*/
 }
 
 #landing-page .form-control {
@@ -156,6 +159,16 @@ font-size: 18px;
   background-color: #8d97aa;
   text-align: center;
 }
+.side-by-side p{
+    max-width: 400px;
+}
+.side-by-side{
+    background-color:#dee8fc;
+    display: flex;
+    min-height: 65vh;
+    background-size: cover;
+
+}
 /* products-list page */
 
 #products-list #products img {
@@ -171,7 +184,9 @@ font-size: 18px;
 }
 
 
-
+#products-list #products a {
+    color: #727272;
+}
 
 
 
@@ -181,7 +196,7 @@ font-size: 18px;
     padding-top: 5em;
 }
 
-#product-section {
+#products-single {
     margin-top: 10em;
 }
 
@@ -194,23 +209,33 @@ font-size: 18px;
 }
 
 
-#cart .img-thumbnail {
+#products-single #cart .img-thumbnail {
     width: 50%;
 }
 
-#carouselExampleIndicators {
+#products-single #carouselExampleIndicators {
     padding-left: 15px;
 }
 
+#products-single .add button{
+    border-style: none;
+    background-color: #294789;
+}
 
+#products-single .add a{
+    color; #294789;
+}
 /* what is this ???? */
 
-.featured {
+#products-single .featured {
     margin-top: 100px;
     margin-bottom: 20px;
     padding-left: 15px;
 }
 
+#products-single .suggestion{
+    max-width: 300px;
+}
 
 
 /* custom media queries */

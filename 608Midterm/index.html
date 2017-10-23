@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
@@ -16,27 +17,28 @@
     <div class="jumbotron jumbotron-fluid container-fluid">
     </div>
     <nav class="navbar navbar-toggleable-md navbar-light bg-faded fixed-top">
-        <div class="container navbar-collapse" id="navbarSupportedContent">
-            <div class="col-3">
+        <div class="container navbar-collaps">
+            <div class="col-12 col-md-3">
                 <a class="navbar-brand" href="index.html">
-                <img src="images/logo.png" alt="logo">      
-            </a></div>
-            <div class="col-6">
+                    <img src="images/logo.png" alt="logo">
+                </a>
+            </div>
+            <div class="col-12 col-md-6">
                 <ul class="nav justify-content-around">
-                    <li class="nav-item dropdown">
+                    <li class="nav-item dropdown col-12 col-md-auto">
                         <a class="nav-link dropdown-toggle" data-toggle="dropdown" id="Preview" href="#" role="button" aria-haspopup="true" aria-expanded="false">Products & Services</a>
                         <div class="dropdown-menu" aria-labelledby="Preview">
-                            <a class="dropdown-item" href="#">Control</a>
-                            <a class="dropdown-item" href="#">Security & Cameras</a>
-                            <a class="dropdown-item" href="#">Lights & Appliances</a>
-                            <a class="dropdown-item" href="#">Sensors</a>
+                            <a class="dropdown-item" href="control.html">Control</a>
+                            <a class="dropdown-item" href="security-camera.html">Security & Cameras</a>
+                            <a class="dropdown-item" href="lights-appliances.html">Lights & Appliances</a>
+                            <a class="dropdown-item" href="sensors.html">Sensors</a>
                         </div>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="how-to-install.html">How to install</a></li>
-                    <li class="nav-item"><a class="nav-link" href="connect.html">Connect</a></li>
+                    <li class="nav-item col-12 col-md-auto"><a class="nav-link" href="how-to-install.html">How to install</a></li>
+                    <li class="nav-item col-12 col-md-auto"><a class="nav-link" href="connect.html">Connect</a></li>
                 </ul>
             </div>
-            <div class="col-3">
+            <div class="col-12 col-md-3">
                 <ul ul class="nav">
                     <li class="nav-item">
                         <form class="form-inline">
@@ -49,49 +51,47 @@
         </div>
         </div>
     </nav>
-    <div class="container background-intro">
-        <div class="row col-md-12 mt-5">
-            <h3 class="landing-title center" style="color:#424e94;">Your Home in the Age of Technology</h3>
-            <p class="mt-3">The smartphones we carry around in our pockets are powerful tools that make life easier, and every advancement in technology enhances their impressive capabilities. The next big step forward for this type of "smart" technology is into our homes. Utilizing integrated technological systems in your home is one of the most significant new trends in digital innovation. Right now is the best time to start reaping the benefits of these capabilities.</p>
-        </div>
-    </div>
     <div class="container">
-        <div class="row mt-5">
-            <div class="col-md-6 col-sm-12 center">
-                <img src="images/image.png">
+        <div class="background-intro">
+            <div class="row col-md-12 mt-5 mb-5">
+                <h3 class="landing-title center" style="color:#424e94;">Your Home in the Age of Technology</h3>
+                <p class="mt-3">The smartphones we carry around in our pockets are powerful tools that make life easier, and every advancement in technology enhances their impressive capabilities. The next big step forward for this type of "smart" technology is into our homes. Utilizing integrated technological systems in your home is one of the most significant new trends in digital innovation. Right now is the best time to start reaping the benefits of these capabilities.</p>
             </div>
-            <div class="col-md-6 col-sm-12 center">
-                <div class="my-text center mb-3">Control</div>
+        </div>
+        <div class="row side-by-side">
+            <div class="col-12 col-md-6">
+                <img class="mx-auto d-block img-fluid" src="images/appuser.jpg">
+            </div>
+            <div class="col-12 col-md-6 align-self-center">
+                <div class="my-text mb-3">Comfort</div>
                 <p>
-                    Take control with the sound of your voice Amazon Echo keeps you in control of your Vivint Smart Home automation system even when you let go of the reins. With Echo, your busy hands don’t need to reach for your phone. Just ask Alexa to adjust thermostats, lighting, appliances, or security systems on the fly.</p>
+                    The one-touch callout button gives your family a direct line to your smartphone while your Smart Home mobile app lets you check in with your family or monitor an empty house while you’re away.</p>
+            </div>
+        </div>
+        <div class="row side-by-side">
+            <div class="col-6 align-self-center">
+                <div class="my-text mb-3">Control</div>
+                <p>
+                    Take control with the sound of your voice Amazon Echo keeps you in control of your Smart Home automation system even when you let go of the reins. With Echo, your busy hands don’t need to reach for your phone. Just ask Alexa to adjust thermostats, lighting, appliances, or security systems on the fly.</p>
+            </div>
+            <div class="col-6">
+                <img class="mx-auto d-block img-fluid" src="images/echo.jpg">
+            </div>
+        </div>
+        <div class="container mb-5">
+            <div class="row mt-5">
+                <div class="col-md-6 col-sm-12 center">
+                    <img src="images/image.png">
+                </div>
+                <div class="col-md-6 col-sm-12 center">
+                    <div class="my-text center mb-3">Convenience</div>
+                    <p>
+                        Its intuitive navigation makes it easy to manage lighting and climate controls, operate garage doors or door locks, monitor security cameras, interact with visitors at your doorstep, or arm security systems from anywhere.</p>
+                </div>
             </div>
         </div>
     </div>
-    <div class="container">
-        <div class="row mt-5">
-            <div class="col-md-6 col-sm-12 center">
-                <div class="my-text center mb-3">Comfort</div>
-                <p>
-                    The one-touch callout button gives your family a direct line to your smartphone while your Vivint Smart Home mobile app lets you check in with your family or monitor an empty house while you’re away.</p>
-            </div>
-            <div class="col-md-6 col-sm-12 center">
-                <img src="images/image.png">
-            </div>
-        </div>
-    </div>
-    <div class="container mb-5">
-        <div class="row mt-5">
-            <div class="col-md-6 col-sm-12 center">
-                <img src="images/image.png">
-            </div>
-            <div class="col-md-6 col-sm-12 center">
-                <div class="my-text center mb-3">Convenience</div>
-                <p>
-                    Its intuitive navigation makes it easy to manage lighting and climate controls, operate garage doors or door locks, monitor security cameras, interact with visitors at your doorstep, or arm security systems from anywhere.</p>
-            </div>
-        </div>
-    </div>
-    <footer class="bg-dark text-white">
+    <footer class="fixed-bottom bg-dark text-white">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-9 center-block">
