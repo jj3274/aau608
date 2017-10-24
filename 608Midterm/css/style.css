@@ -44,7 +44,6 @@ footer {
 }
 
 footer img {
-
     justify-content: center;
     align-items: center;
     vertical-align: middle;
@@ -173,7 +172,11 @@ footer img {
     padding-top: 610px;
 }
 
-.background-intro p {
+#landing-page p {
+    text-align: center;
+}
+
+#landing-page .background-intro p {
     font-size: 20px;
     color: #a5a5a5;
 }
@@ -281,6 +284,14 @@ footer img {
     padding-top: 200px;
 }
 
+#how-to-install p {
+    text-align: center;
+}
+
+#how-to-install .background-intro p {
+    font-size: 20px;
+    color: #a5a5a5;
+}
 
 /* custom media queries */
 
