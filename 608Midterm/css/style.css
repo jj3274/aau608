@@ -202,20 +202,20 @@ footer img {
     background-image: url('../images/kitchen_2.jpg');
 }
 
-/* products-list page */
+/* control, security-camera, sensor page */
 
-#products-list #products img {
+.products-list #products img {
     width: 100%;
     margin-top: 50px;
 }
 
-#products-list #products {
+.products-list #products {
     margin: auto;
     text-align: center;
 }
 
 
-#products-list #products a {
+.products-list #products a {
     color: #727272;
 }
 
