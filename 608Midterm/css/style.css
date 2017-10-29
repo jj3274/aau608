@@ -5,12 +5,12 @@ body {
     line-height: 1.8;
     font-size: 16px;
     margin-bottom: 200px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'PT Serif', serif;
 }
 
 h2,
 h3 {
-    font-family: 'Federo', sans-serif;
+    font-family: 'PT Sans', sans-serif;
 }
 
 hr {
@@ -20,8 +20,9 @@ hr {
 
 ul.nav>li>a:hover {
 
-    color: #8d97aa;
+    color: #ffa70b;
     border-style: none;
+
 }
 
 .center {
@@ -71,6 +72,7 @@ footer img {
 .dropdown-menu {
     font-size: 14px;
     color: #7d89b4;
+    font-family: 'PT Sans', sans-serif;
 }
 
 .dropdown-item:active {
@@ -142,10 +144,9 @@ footer img {
 
 
 
-/* design1 pattern, applied to index (landing) page and how-to-install pages*/
+/* design1 pattern, applied to index (landing) page pages*/
 
 .design1 {
-    padding-top: 70px;
     font-size: 14px;
 }
 
@@ -168,7 +169,7 @@ footer img {
 }
 
 .design1 .background-intro {
-    padding-top: 610px;
+    padding-top: 700px;
 }
 
 .design1 p {
@@ -177,7 +178,7 @@ footer img {
 
 .design1 .background-intro p {
     font-size: 20px;
-    color: #a5a5a5;
+    color: #636262;
 }
 
 .design1 .my-text {
@@ -187,7 +188,7 @@ footer img {
     height: 40px;
     width: 200px;
     border-radius: 20px;
-    background-color: #8894bc;
+    background-color: #ffb106;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -218,6 +219,10 @@ footer img {
 .products-list #products a {
     color: #727272;
 }
+.products-list #products a:hover {
+    color: #ffa70b;
+}
+
 
 
 
@@ -285,11 +290,30 @@ footer img {
      padding-top: 10em;
 }
 
+#blogs p{
+     max-width:768px;
+     padding-bottom: 3em;
+}
+
+#blogs h2{
+    font-weight: bold;
+}
+
+#blogs small{
+    padding-top: 3em;
+}
+
+
+
 /*how to install page*/
 
-#how-to-install .jumbotron {
-    background-image: url('../images/houses_infographic.png');
+
+.how-to-install img{
+    margin-top: 5em;
 }
+
+
+
 
 /* custom media queries */
 
@@ -317,10 +341,10 @@ footer img {
 
 @media (min-width: 992px) {
     .jumbotron {
-        height: 1000px;
+        height: 1044px;
     }
     .design1 .background-intro {
-        padding-top: 950px;
+        padding-top: 1030px;
     }
 }
 
