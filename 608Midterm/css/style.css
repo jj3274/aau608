@@ -142,15 +142,14 @@ footer img {
 
 
 
-/* index (landing) page */
+/* design1 pattern, applied to index (landing) page and how-to-install pages*/
 
-#landing-page {
+.design1 {
     padding-top: 70px;
     font-size: 14px;
 }
 
-#landing-page .jumbotron {
-    background-image: url('../images/kitchen_2.jpg');
+.design1 .jumbotron {
     background-size: cover;
 
     width: 100%;
@@ -164,24 +163,24 @@ footer img {
     background-size: cover;
 }
 
-#landing-page .form-control {
+.design1 .form-control {
     width: 150px;
 }
 
-#landing-page .background-intro {
+.design1 .background-intro {
     padding-top: 610px;
 }
 
-#landing-page p {
+.design1 p {
     text-align: center;
 }
 
-#landing-page .background-intro p {
+.design1 .background-intro p {
     font-size: 20px;
     color: #a5a5a5;
 }
 
-.my-text {
+.design1 .my-text {
     font-family: 'Federo', sans-serif;
     font-size: 18px;
     color: white;
@@ -194,11 +193,14 @@ footer img {
     align-items: center;
 }
 
-.side-by-side {
+.design1 .side-by-side {
     max-height: 500px;
 }
 
-
+/* index (landing) page */
+#landing-page .jumbotron {
+    background-image: url('../images/kitchen_2.jpg');
+}
 
 /* products-list page */
 
@@ -271,26 +273,22 @@ footer img {
 }
 
 
-
 /* cartpage */
 
 #cartpage {
     margin-top: 10em;
 }
 
+/*connect page*/
+
+#blogs{
+     padding-top: 10em;
+}
 
 /*how to install page*/
-#how-to-install .background-intro {
-    padding-top: 200px;
-}
 
-#how-to-install p {
-    text-align: center;
-}
-
-#how-to-install .background-intro p {
-    font-size: 20px;
-    color: #a5a5a5;
+#how-to-install .jumbotron {
+    background-image: url('../images/houses_infographic.png');
 }
 
 /* custom media queries */
@@ -321,11 +319,8 @@ footer img {
     .jumbotron {
         height: 1000px;
     }
-    #landing-page .background-intro {
+    .design1 .background-intro {
         padding-top: 950px;
-    }
-    #how-to-install .background-intro {
-        padding-top: 30px;
     }
 }
 
