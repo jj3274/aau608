@@ -23,7 +23,9 @@ $(document).ready(function() {
         $('#myInput').focus();
     })
 
-
+    // $(".navbar-toggle").on("click", function () {
+    //     $(this).toggleClass("active");
+    // });
 });
 
     $(document).scroll(function() {
