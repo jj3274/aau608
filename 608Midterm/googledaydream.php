@@ -1,46 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans|PT+Serif" rel="stylesheet">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <title>iot devices for smart home</title>
-</head>
+<?php include "partials/head.html";?>
 
 <body id="products-single">
-     <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-faded">
-            <a class="navbar-brand ml-4" href="index.html"><img src="images/logo2.png" alt="logo"></a>
-            <button class="navbar-toggler navbar-toggler-left" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto center">
-                    <li class="nav-item dropdown col-12 col-lg-auto center">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" id="Preview" href="#" role="button" aria-haspopup="true" aria-expanded="false">Products & Services</a>
-                        <div class="dropdown-menu" aria-labelledby="Preview">
-                            <a class="dropdown-item" href="control.html">Control</a>
-                            <a class="dropdown-item" href="security-camera.html">Security & Cameras</a>
-                            <a class="dropdown-item" href="sensors.html">Sensors</a>
-                        </div>
-                    </li>
-                    <li class="nav-item col-12 col-lg-auto center"><a class="nav-link" href="how-to-install.html">How to install</a></li>
-                    <li class="nav-item col-12 col-lg-auto center"><a class="nav-link" href="connect.html">Connect</a></li>
-                </ul>
-            </div>
-            <form class="form-inline flex-nowrap my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="text" placeholder="Search">
-                <button class="btn btn-outline-warning my-2 my-sm-0 mr-2" type="submit">Go</button>
-                <a class="cart-icon mr-5" href="cart.html"> <i class="fa fa-shopping-cart" style="color:#5766a3;"></i></a></a>
-            </form>
-        </nav>
-    </div>
+    <?php include "partials/nav.html";?>
     <div class="container second" id="product-section">
         <div class="row">
             <div class="col-xs-12 col-md-6">
@@ -52,10 +14,13 @@
                     </ol>
                     <div class="carousel-inner" role="listbox">
                         <div class="carousel-item active">
-                            <img class="d-block img-fluid" src="images/googlechrome1.jpg" alt="First slide" width="100%">
+                            <img class="d-block img-fluid" src="images/vr1.jpg" alt="First slide" width="100%">
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block img-fluid" src="images/googlechrome2.jpg" alt="Second slide" width="100%">
+                            <img class="d-block img-fluid" src="images/vr2.jpg" alt="Second slide" width="100%">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block img-fluid" src="images/vr3.jpg" alt="Second slide" width="100%">
                         </div>
                         
                     </div>
@@ -72,11 +37,12 @@
             <div class="col-xs-12 col-md-6 pl-5 align-self-center">
                 <div class="row">
                     <div class="col-md-12 mt-0">
-                        <h2 class="center">Google Chromecast</h2>
+                        <h2 class="center">Google Daydream</h2>
                     </div>
                 </div>
                 <div class="row">
-                    <p class="center mt-4">Chromecast plugs into your TV’s HDMI port. Simply use your device and the TV you own to stream TV shows, movies, games and more. Chromecast works with iPhone®, iPad®, Android phone and tablet, Mac® and Windows® laptop and Chromebook.</p>
+                    <p class="center mt-4">Support 99% air-conditioning in the market, automatic cloud panel match, one button download app to remote control.
+Turn on air-conditioning before you get home, enjoy warm time when you get home.</p>
                 </div>
                 <div class="row mt-4">
                     <div class="col-6">
@@ -90,9 +56,7 @@
                     <div class="col-6">
                         <div class="form-group">
                             <select class="selectpicker form-control">
-                                <option>Black</option>
-                                <option>Lemonade</option>
-                                <option>Coral</option>
+                                <option>White</option>
                             </select>
                         </div>
                     </div>
@@ -106,11 +70,11 @@
                 </div>
                 <div class="row mt-4">
                     <div class="col-6">
-                        <h3>$39.99</h3></div>
+                        <h3>$99.00</h3></div>
                 </div>
                 <div class="add row mt-4">
                     <div class="col-6">
-                        <a href="cart.html">
+                        <a href="cart.php">
                             <button type="button" class="btn btn-primary btn-rounded">ADD TO CART</button>
                         </a>
                         <a class="spec ml-3" href="#" data-toggle="modal" data-target="#myModal"><u><small>SPECS</small></u></a>
@@ -248,31 +212,17 @@
         </div>
         <div class="row">
             <div class="col-xs-12 col-md-2">
-                <img class="img-responsive" width="100%" src="images/googlehome1.jpg">
+                <img class="img-responsive" width="100%" src="images/googlechrome1.jpg">
             </div>
             <div class="col-xs-12 col-md-2">
                 <img class="img-responsive" width="100%" src="images/apple1.jpg">
             </div>
             <div class="col-xs-12 col-md-2">
-                <img class="img-responsive" width="100%" src="images/broadlink1.jpg">
+                <img class="img-responsive" width="100%" src="images/googlehome1.jpg">
             </div>
         </div>
     </div>
-    <footer class="fixed-bottom bg-dark text-white ">
-        <div class="col-12 container-fluid">
-            <div class="row">
-                <div class="social center ml-3 mt-1 ">
-                    <ol><a href="https://www.facebook.com/"><img src="images/facebook.png "></a><a href="https://www.twitter.com/"><img src="images/twitter.png "></a><a href="https://www.googleplus.com"><img src="images/googleplus.png "></a><a href="https://www.instagra.com"><img src="images/instagram.png "></a><a href="http://www.youtube.com"><img src="images/youtube.png"></a></ol>
-                </div>
-                <div class="text-right small align-self-end center mr-3">©2017 SmartHome.Inc</div>
-            </div>
-        </div>
-    </footer>
-    <script src="js/jquery-3.2.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/tether.js"></script>
-    <script src="js/script.js"></script>
+     <?php include "partials/footer.html";?>
 </body>
 
 </html>
