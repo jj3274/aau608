@@ -54,10 +54,9 @@
                     <div class="col-6">
                         <div class="form-group">
                             <select class="selectpicker form-control">
-                                <option>Gray</option>
+                                
                                 <option>White</option>
-                                <option>Red</option>
-                                <option>Blue</option>
+                                
                             </select>
                         </div>
                     </div>

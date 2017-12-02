@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <?php include "partials/head.html";?>
 
 <body id="products-single">
@@ -14,13 +14,13 @@
                     </ol>
                     <div class="carousel-inner" role="listbox">
                         <div class="carousel-item active">
-                            <img class="d-block img-fluid" src="images/apple1.jpg" alt="First slide" width="100%">
+                            <img class="d-block img-fluid" src="/images/<?= $row->main_image ?>" alt="First slide" width="100%">
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block img-fluid" src="images/apple2.jpg" alt="Second slide" width="100%">
+                            <img class="d-block img-fluid" src="/images/<?= $row->main_image ?>" alt="Second slide" width="100%">
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block img-fluid" src="images/apple3.jpg" alt="Second slide" width="100%">
+                            <img class="d-block img-fluid" src="/images/<?= $row->main_image ?>" alt="Second slide" width="100%">
                         </div>
                     </div>
                     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -36,7 +36,7 @@
             <div class="col-xs-12 col-md-6 pl-5 align-self-center">
                 <div class="row">
                     <div class="col-md-12 mt-0">
-                        <h2 class="center">Apple TV</h2>
+                        <h2 class="center"><?= $row->title ?></h2>
                     </div>
                 </div>
                 <div class="row">
@@ -221,6 +221,3 @@
         </div>
     </div>
    <?php include "partials/footer.html";?>
-</body>
-
-</html>

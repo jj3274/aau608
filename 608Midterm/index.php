@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 
     <?php include "partials/head.html";?>
 
@@ -49,5 +48,4 @@
 
   <?php include "partials/footer.html";?>
 
-</body>
-</html>
+

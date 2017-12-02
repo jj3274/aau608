@@ -201,6 +201,3 @@
         </div>
     </div>
     <?php include "partials/footer.html";?>
-</body>
-
-</html>

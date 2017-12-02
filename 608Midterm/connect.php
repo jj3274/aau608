@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <?php include "partials/head.html";?>
 
 <body id="news">
@@ -11,15 +11,18 @@
             <hr></hr>
         </div>
         <div class="col-12 mb-5 mt-5 center">
-            <div class="my-text mb-3 center">
+            <div class="my-text center">
                 <h2>Is your house safe? How to build a hack-proof smart home</h2>
                 <small>mansion-global 
                 By John Elliot  Published March 21, 2017</small>
             </div>
-            <div class="row justify-content-around mt-5 mb-5">
-                <img src="images/house.jpeg">
+            <div class="row justify-content-around">
+                <video controls="controls" width="800" height="600" name="app promo" src="images/app promo.mov"></video>
             </div>
-            <p class="center">
+            <div>
+            <small>Music: https://www.bensound.com</small></div>
+
+            <p class="center mt-5">
                 From election year email leaks to smart homes spying on homeowners, hacking is having a moment. With the recent revelation that American intelligence agencies have allegedly developed clandestine techniques to turn phones and TVs against their users, hacking—the unwanted intrusion into our digital lives via our web-connected devices—has never been as hot as it is right now.</p>
             <p class="center">Add to the mix the general atmosphere of paranoia, buoyed by the current administration’s accusations of in-home espionage, and you can understand why smart home safety, of the IT variety, might be on the modern homeowner’s mind.
             </p>
@@ -32,6 +35,3 @@
         </div>
     </div>
     <?php include "partials/footer.html";?>
-</body>
-
-</html>

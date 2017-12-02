@@ -1,0 +1,486 @@
+{
+	"notes":[
+		"NO COMMENTS IN A JSON FILE",
+		"One top level object or array",
+		"[] an array, {} an object",
+		"Commas go BETWEEN  items in an array or object",
+		"All object property names mus have quote marks",
+		"All string quote marks must be double quote"
+	],
+	"control_products":[
+		{
+			"product-name":"Google WiFi",
+			"description":"Google Wifi replaces your router and works with your modem and ISP, so you can stream, download and share without missing a beat.",
+			"colors":"White",
+			"price":"$199.00",
+
+			"tech-specs":{
+
+			"Dimensions":{
+				"Diameter":"3.79 in (96.4 mm)",
+			    "Height": "5.62 in (142.8 mm)",
+                "Power cable": "5.9 ft (1.8 m)",
+            },
+
+            "weight":{
+            	"Device":"1.05 lbs (477 g)",
+            	"Power adapter":"4.58 oz (130 g)",
+            },
+
+            "Colors":{
+                "Body":"White",
+                "Base":"Slate fabric",
+            },
+
+            "Supported Audio Formats": "HE-AAC, LC-AAC+, MP3, Vorbis, WAV (LPCM), FLAC with support for high-resolution streams",
+            "Wireless": "802.11b/g/n/ac (2.4GHz/5Ghz) Wi-Fi for high-performance streaming",
+
+            "Speaker": [
+            	"High excursion speaker with 2” driver + dual 2” passive radiators", 
+            	"Far-field voice recognition supports hands-free use"
+            ],
+            "Power": "Required 16.5V, 2A included",
+            "Ports & Connectors": "DC power jack",
+
+            "Supported Operating Systems": [
+
+            	"Android 4.4 and higher",
+                "iOS 9.1 and higher",
+            ]
+            },
+        },
+           
+        {
+			"product-name":"Google Chrome",
+			"description":"Chromecast plugs into your TV’s HDMI port. Simply use your device and the TV you own to stream TV shows, movies, games and more. Chromecast works with iPhone®, iPad®, Android phone and tablet, Mac® and Windows® laptop and Chromebook.",
+			"colors": ["Black","Lemonade","Coral"],
+			"price":"$39.99",
+			
+			"tech-specs":{
+
+			"Dimensions":{
+				"Diameter":"3.79 in (96.4 mm)",
+			    "Height": "5.62 in (142.8 mm)",
+                "Power cable": "5.9 ft (1.8 m)",
+            },
+
+            "weight":{
+            	"Device":"1.05 lbs (477 g)",
+            	"Power adapter":"4.58 oz (130 g)",
+            },
+
+            "Colors":{
+                "Body":"White",
+                "Base":"Slate fabric",
+            },
+
+            "Supported Audio Formats": "HE-AAC, LC-AAC+, MP3, Vorbis, WAV (LPCM), FLAC with support for high-resolution streams",
+            "Wireless": "802.11b/g/n/ac (2.4GHz/5Ghz) Wi-Fi for high-performance streaming",
+
+            "Speaker": [
+            	"High excursion speaker with 2” driver + dual 2” passive radiators", 
+            	"Far-field voice recognition supports hands-free use"
+            ],
+            "Power": "Required 16.5V, 2A included",
+            "Ports & Connectors": "DC power jack",
+
+            "Supported Operating Systems": [
+
+            	"Android 4.4 and higher",
+                "iOS 9.1 and higher",
+            ]
+            },
+
+		},
+		{
+			"product-name":"Apple TV",
+			"description":"Apple TV 4K lets you watch movies and shows in amazing 4K HDR quality. Streams live sports and news. And has great content from apps like Netflix, Hulu, and ESPN.1",
+			"colors":"Black",
+			"price":"$199.99",
+			
+			"tech-specs":{
+
+			"Dimensions":{
+				"Diameter":"3.79 in (96.4 mm)",
+			    "Height": "5.62 in (142.8 mm)",
+                "Power cable": "5.9 ft (1.8 m)",
+            },
+
+            "weight":{
+            	"Device":"1.05 lbs (477 g)",
+            	"Power adapter":"4.58 oz (130 g)",
+            },
+
+            "Colors":{
+                "Body":"White",
+                "Base":"Slate fabric",
+            },
+
+            "Supported Audio Formats": "HE-AAC, LC-AAC+, MP3, Vorbis, WAV (LPCM), FLAC with support for high-resolution streams",
+            "Wireless": "802.11b/g/n/ac (2.4GHz/5Ghz) Wi-Fi for high-performance streaming",
+
+            "Speaker": [
+            	"High excursion speaker with 2” driver + dual 2” passive radiators", 
+            	"Far-field voice recognition supports hands-free use"
+            ],
+            "Power": "Required 16.5V, 2A included",
+            "Ports & Connectors": "DC power jack",
+
+            "Supported Operating Systems": [
+
+            	"Android 4.4 and higher",
+                "iOS 9.1 and higher",
+            ]
+            },
+		},
+
+		{
+			"product-name":"Google Home",
+			"description":"Listen to music, playlists and more, and get rich sound from Google Home’s high excursion speaker.",
+			"colors":["Gray","White","Red","Blue"],
+			"price":"$49.00",
+			
+			"tech-specs":{
+
+			"Dimensions":{
+				"Diameter":"3.79 in (96.4 mm)",
+			    "Height": "5.62 in (142.8 mm)",
+                "Power cable": "5.9 ft (1.8 m)",
+            },
+
+            "weight":{
+            	"Device":"1.05 lbs (477 g)",
+            	"Power adapter":"4.58 oz (130 g)",
+            },
+
+            "Colors":{
+                "Body":"White",
+                "Base":"Slate fabric",
+            },
+
+            "Supported Audio Formats": "HE-AAC, LC-AAC+, MP3, Vorbis, WAV (LPCM), FLAC with support for high-resolution streams",
+            "Wireless": "802.11b/g/n/ac (2.4GHz/5Ghz) Wi-Fi for high-performance streaming",
+
+            "Speaker": [
+            	"High excursion speaker with 2” driver + dual 2” passive radiators", 
+            	"Far-field voice recognition supports hands-free use"
+            ],
+            "Power": "Required 16.5V, 2A included",
+            "Ports & Connectors": "DC power jack",
+
+            "Supported Operating Systems": [
+
+            	"Android 4.4 and higher",
+                "iOS 9.1 and higher",
+            ]
+            },
+		},
+
+		{
+			"product-name":"Google Home mini",
+			"description":"Hands-free help around the house. Mini is powered by the Google Assistant. So whenever you need help, it’s by your side.",
+			"colors":["Chalk","Charcoal","Coral"],
+			"price":"$49.00",
+			
+			"tech-specs":{
+
+			"Dimensions":{
+				"Diameter":"3.86 in (98 mm)",
+			    "Height": "1.65 in (42 mm)",
+                "Power cable": "5.9 ft (1.8 m)",
+            },
+
+            "weight":{
+            	"Device":"6.10 oz (173 g)",
+            	"Power adapter and cable": "approximately 2.65 oz (75 g)",
+            },
+
+            "Colors":["Chalk","Charcoal","Coral"],
+            "Materials":["Durable fabric top",
+            	         "Plastic housings created using recycled material",
+            	         "Non-skid silicone base"],
+
+            "Supported Audio Formats":"HE-AAC, LC-AAC+, MP3, Vorbis, WAV (LPCM), FLAC",
+            "Wireless": ["802.11b/g/n/ac (2.4GHz/5Ghz) Wi-Fi",
+            	         "Chromecast and Chromecast Audio built"],
+
+            "Speaker": 
+            	"360 sound with 40mm driver", 
+            "Mics":"Far-field voice recognition supports hands-free use",
+      
+            "Power": "5V, 1.8A",
+            "Ports & Connectors": "Micro USB port1 1USB are trademarks of USB Implementers Forum.",
+
+            "Supported Operating Systems": [
+
+            	"ndroid 4.4 and higher 1iOS is a trademark or registered trademark of Cisco and is used under license.",
+                "iOS 9.1 and higher",
+            ]
+            },
+
+		},
+		{
+			"product-name":"Amazon Echo Dot",
+			"description":"Echo Dot is a hands-free, voice-controlled device that uses the same far-field voice recognition as Amazon Echo. Dot has a small built-in speaker—it can also connect to your speakers over Bluetooth or with the included audio cable. Dot connects to the Alexa Voice Service to play music, provide information, news, sports scores, weather, and more—instantly.",
+			"colors":["black","white"],
+			"price":"$49.00",
+			
+			"tech-specs":{
+
+		    "size":""1.5" x 3.3" x 3.3" (38 mm x 83.5 mm x 83.5 mm)",
+		    "weight":"8.8 oz. (250 grams) Actual size and weight may vary by manufacturing process",
+		    "Wi-Fi Connectivity":"Dual-band, dual-antenna Wi-Fi (MIMO) for faster streaming and fewer dropped connections than standard Wi-Fi. Supports 802.11a/b/g/n Wi-Fi networks. Does not support connecting to ad-hoc (or peer-to-peer) Wi-Fi networks.",
+            "Bluetooth Connectivity":"Advanced Audio Distribution Profile (A2DP) support for audio streaming from your mobile device to Echo Dot or from Echo Dot to your bluetooth speaker. Audio/Video Remote Control Profile (AVRCP) for voice control of connected mobile devices. Hands-free voice control is not supported for Mac OS X devices. Bluetooth speakers requiring PIN codes are not supported.",
+            "Audio":"Built-in speaker for voice feedback when not connected to external speakers. 3.5 mm stereo audio output for use with external speakers.",
+            "System Requirements":"Echo Dot comes ready to connect to your Wi-Fi. The Alexa App is compatible with Fire OS, Android, and iOS devices and also accessible via your web browser. Certain skills and services may require subscription or other fees.",
+            "Warranty and Service":"1-year limited warranty and service included. Use of Echo Dot is subject to the terms found here.",
+            "Included in the Box":"Echo Dot, 3.5 mm audio cable (4 ft.), power adapter (9W), USB charging cable, and Quick Start Guide",
+            },
+		},
+
+		{
+			"product-name":"BroadLink",
+			"description":"Support 99% air-conditioning in the market, automatic cloud panel match, one button download app to remote control. Turn on air-conditioning before you get home, enjoy warm time when you get home.",
+			"colors":"Black",
+			"price":"$13.99",
+			"tech-specs":{
+
+			"Dimensions":{
+				"Diameter":"3.86 in (98 mm)",
+			    "Height": "1.65 in (42 mm)",
+                "Power cable": "5.9 ft (1.8 m)",
+            },
+
+            "weight":{
+            	"Device":"6.10 oz (173 g)",
+            	"Power adapter and cable": "approximately 2.65 oz (75 g)",
+            },
+
+            "Colors":["Chalk","Charcoal","Coral"],
+            "Materials":["Durable fabric top",
+            	         "Plastic housings created using recycled material",
+            	         "Non-skid silicone base"],
+
+            "Supported Audio Formats":"HE-AAC, LC-AAC+, MP3, Vorbis, WAV (LPCM), FLAC",
+            "Wireless": ["802.11b/g/n/ac (2.4GHz/5Ghz) Wi-Fi",
+            	         "Chromecast and Chromecast Audio built"],
+
+            "Speaker": 
+            	"360 sound with 40mm driver", 
+            "Mics":"Far-field voice recognition supports hands-free use",
+      
+            "Power": "5V, 1.8A",
+            "Ports & Connectors": "Micro USB port1 1USB are trademarks of USB Implementers Forum.",
+
+            "Supported Operating Systems": [
+
+            	"ndroid 4.4 and higher 1iOS is a trademark or registered trademark of Cisco and is used under license.",
+                "iOS 9.1 and higher",
+            ]
+            },
+        },
+
+		{
+			"product-name":"Google Daydream",
+			"description":"Support 99% air-conditioning in the market, automatic cloud panel match, one button download app to remote control.Turn on air-conditioning before you get home, enjoy warm time when you get home.",
+			"colors":"White",
+			"price":"$99.00",
+			"tech-specs":{
+
+			"Dimensions":{
+				"Diameter":"3.86 in (98 mm)",
+			    "Height": "1.65 in (42 mm)",
+                "Power cable": "5.9 ft (1.8 m)",
+            },
+
+            "weight":{
+            	"Device":"6.10 oz (173 g)",
+            	"Power adapter and cable": "approximately 2.65 oz (75 g)",
+            },
+
+            "Colors":["Chalk","Charcoal","Coral"],
+            "Materials":["Durable fabric top",
+            	         "Plastic housings created using recycled material",
+            	         "Non-skid silicone base"],
+
+            "Supported Audio Formats":"HE-AAC, LC-AAC+, MP3, Vorbis, WAV (LPCM), FLAC",
+            "Wireless": ["802.11b/g/n/ac (2.4GHz/5Ghz) Wi-Fi",
+            	         "Chromecast and Chromecast Audio built"],
+
+            "Speaker": 
+            	"360 sound with 40mm driver", 
+            "Mics":"Far-field voice recognition supports hands-free use",
+      
+            "Power": "5V, 1.8A",
+            "Ports & Connectors": "Micro USB port1 1USB are trademarks of USB Implementers Forum.",
+
+            "Supported Operating Systems": [
+
+            	"ndroid 4.4 and higher 1iOS is a trademark or registered trademark of Cisco and is used under license.",
+                "iOS 9.1 and higher",
+            ]
+            },
+		},
+
+	],
+	
+	"securitycamera_products":[
+		{
+			"product-name":"Nest Indoor Camera",
+			"description":"The Nest Cam Indoor security camera is designed to help you look after your home and family – even when you’re away. With 24/7 live streaming, a versatile magnetic stand, person alerts with Nest Aware and one app for all your Nest products, Nest Cam Indoor helps you keep an eye on what matters. From anywhere.",
+			"colors":"Black",
+			"price":"$129.00",
+
+			"tech-specs":{
+
+		    "Power":"AC adapter input: 100-240V AC, 50/60Hz, 0.2A AC adapter output: 5V DC, 1.4A Camera input: 5V DC, 1.0A",
+		    "Color":"Black",
+		    "Features":[
+		    	"Nest Cam Indoor only (No additional fees) 24/7, continuous 1080p HD streaming Motion alerts Sound alerts Night Vision Talk & Listen Clear Zoom Quick, easy setup Nest App Software updates over Wi‑Fi",
+		    	"Get even more with Nest Aware (Subscription sold separately)",
+		    	"For $10/month (or $100/year) per camera 10 days of 24/7, continuous, 1080p HD recording (100+ GB of rolling cloud storage) For $30/month (or $300/year) per camera 30 days of 24/7, continuous, 1080p HD recording (300+ GB of rolling cloud storage) Plus:Alert summary to quickly scan your video history.Activity Zones for personalized alerts.Powerful algorithms in the cloud to help filter out false alerts.Clips you can make, download, and share.Timelapses that turn hours of video into short films.",
+            ],
+            "Camera":" ⅓-inch, 3-megapixel sensor with millions of colors and 8x digital zoom",
+            "Video":"Up to 1080p (1920 x 1080) at 30 frames/sec, H.264 encoding",
+            "Field of view":"130° diagonal",
+            "Night Vision":"8 high-power infrared LEDs (850nm) with IR cut filter",
+            "Audio and lights":"Speaker Microphone RGB LED",
+            "Size and weight":"Assembled Mass: 7.5 ounces (213 g) Height: 4.5 inches (11.4 cm) Width: 2.9 inches (7.3 cm) Depth: 2.9 inches (7.3 cm) Total cable length: 10 feet (3 m)",
+            "Connectivity requirements":"Wi-Fi connection.Working broadband internet connection with at least 2 Mbps upload speed (DSL may not qualify).Requires a web browser or a compatible phone or tablet with the free Nest app and Bluetooth 4.0. Some phones, tablets and networks do not support 1080p. For more info visit nest.com/requirements.",
+            "Wireless":"Wi-Fi 802.11a/b/g/n, 2.4GHz or 5GHz (WEP, WPA, WPA2 encryption supported) Bluetooth Low Energy (BLE)",
+            "Bandwidth requirements":"At 720p, each camera requires 200 to 500 Kbps of upload bandwidth while streaming video.At 1080p, each camera requires 450 to 1200 Kbps of upload bandwidth while streaming video. Cameras will use more bandwidth to stream video when there is more motion in the scene.If you subscribe to Nest Aware, your camera streams all video to the cloud for secure offsite storage. At 720p, each camera could use 60GB to 160GB of upload bandwidth per month. At 1080p, each camera could use 140GB to 380GB of upload bandwidth per month.",
+		},
+	},
+
+		{
+			"product-name":"Alro",
+            "description":"Stay in total control all the time. Whether you're using a smartphone, tablet, or computer, a click or two is all you'll ever need to check in. The free Arlo app is available for iOS, Android, Apple TV and web browser.",
+            "colors":"White",
+			"price":"$579.00",
+		},
+		{
+			"product-name":"Ring doorbell",
+            "description":"Ring lets you monitor every corner of your property. With a Video Doorbell at your door and Stick Up Cams around the house, you can create a Ring of Security around your entire home.",
+            "colors":["White","Gold","Black","Slate"],
+			"price":"$179.00", 
+		},
+	],
+
+	"sensors_products":[
+		{
+			"product-name":"RadonEye",
+			"description":"The RD200 has 20 times higher sensitivity than the other handy radon detectors. A time for the first reliable data display is just 1 hour, so no longer need to wait a long time, 24~48hours. Also it offers convenience for data log, graph display, alarm setting by Bluetooth function with Smart Phone.",
+			"colors":"White",
+			"price":"$199.00",
+
+			"tech-specs":{
+
+		    "Type":"pulsed ion chamber",
+		    "Data interval":"10min update (60min moving average)",
+		    "Sensitivity":"0.5cpm/pCi/l at 10pCi/l (30cph/pCi/l)",
+		    "Operating range":"0~40℃, RH< 90%<",
+		    "Range":" 0.1 ~ 99.99 pCi/l",
+		    "Precision":"< 10% at 10pCi/l",
+		    "Accuracy":"< ±10% (min. error <±0.5pCi/l )",
+		    "Power":"DC 12 ± 0.1V, 65mA<",
+		    "Size":"Φ68(mm ) x H98(mm)",
+		    "Data communication":"UART",    
+		    },
+		},
+		
+		{
+			"product-name":"RadonEye+",
+			"description":"Radon Eye Plus is a real-time smart indoor radon gas detector using Wi-Fi communication.",
+			"colors":"white",
+			"price":"$199.00",
+			
+			"tech-specs":{
+
+		    "Type":"pulsed ion chamber",
+		    "Data interval":"10min update (60min moving average)",
+		    "Sensitivity":"0.5cpm/pCi/l at 10pCi/l (30cph/pCi/l)",
+		    "Operating range":"0~40℃, RH< 90%<",
+		    "Range":" 0.1 ~ 99.99 pCi/l",
+		    "Precision":"< 10% at 10pCi/l",
+		    "Accuracy":"< ±10% (min. error <±0.5pCi/l )",
+		    "Power":"DC 12 ± 0.1V, 65mA<",
+		    "Size":"Φ68(mm ) x H98(mm)",
+		    "Data communication":"UART",    
+		    },
+
+		},
+
+		{
+			"product-name":"Nest thermostat",
+			"description":"The Nest Thermostat E turns itself down when you’re away. You can control it from anywhere. And its frosted display is beautifully designed to blend right in.",
+			"colors":"white",
+			"price":"$249.99",
+
+
+			"tech-specs":{
+
+		    "Dimensions":[
+		    	{"Diameter":"3.79 in (96.4 mm)",
+		    	"Height": "5.62 in (142.8 mm)",},
+		    ],
+
+		    "Weight":[
+		    	{"Device":" 1.05 lbs (477 g)",
+		    	 "Power adapter": "4.58 oz (130 g)",
+		    	 "Power cable": "5.9 ft (1.8 m)",},
+		    ],  
+		    },
+
+		    "colors":[
+		    	{"Body": "White",
+		    	 "Base": "Slate fabric",
+		    	}],
+
+		    "Supported Audio Formats":
+		    "HE-AAC, LC-AAC+, MP3, Vorbis, WAV (LPCM), FLAC with support for high-resolution streams",
+		    "Wireless":"802.11b/g/n/ac (2.4GHz/5Ghz) Wi-Fi for high-performance streaming",
+		    "Speaker":
+		   	["High excursion speaker with 2” driver + dual 2” passive radiators",
+		    "Far-field voice recognition supports hands-free use",],
+		    "Power":"Required 16.5V, 2A included",
+		    "Ports & Connectors":"DC power jack",
+		    "Supported Operating Systems":["Android 4.4 and higher","iOS 9.1 and higher",]
+		},
+
+		{
+			"product-name":"Nest smoke Detector",
+            "description":"Nest Protect has a friendly human voice that gives you an early warning. That way you can handle burning toast before it becomes a burning toaster.",
+			"colors":"White",
+            "price":"$119.00",
+            "tech-specs":{
+
+            "Dimensions":[
+                {"Diameter":"3.79 in (96.4 mm)",
+                "Height": "5.62 in (142.8 mm)",},
+            ],
+
+            "Weight":[
+                {"Device":" 1.05 lbs (477 g)",
+                 "Power adapter": "4.58 oz (130 g)",
+                 "Power cable": "5.9 ft (1.8 m)",},
+            ],  
+            },
+
+            "colors":[
+                {"Body": "White",
+                 "Base": "Slate fabric",
+                }],
+
+            "Supported Audio Formats":
+            "HE-AAC, LC-AAC+, MP3, Vorbis, WAV (LPCM), FLAC with support for high-resolution streams",
+            "Wireless":"802.11b/g/n/ac (2.4GHz/5Ghz) Wi-Fi for high-performance streaming",
+            "Speaker":
+            ["High excursion speaker with 2” driver + dual 2” passive radiators",
+            "Far-field voice recognition supports hands-free use",],
+            "Power":"Required 16.5V, 2A included",
+            "Ports & Connectors":"DC power jack",
+            "Supported Operating Systems":["Android 4.4 and higher","iOS 9.1 and higher",]
+		},
+
+	]
+}

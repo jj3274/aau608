@@ -1,4 +1,3 @@
-<!DOCTYPE html>
   <?php include "partials/head.html";?>
 
 <body id="cart">
@@ -25,10 +24,10 @@
             <hr></hr>
             <div class="row align-items-center mt-3 mb-3">
                 <div class="col-xs-12 col-sm-3 center">
-                    <img class="img-thumbnail" src="images/googlehome1.jpg">
+                    <img class="img-thumbnail" src="/images/<?= $row->main_image ?>">
                 </div>
                 <div class="col-xs-12 col-sm-3 center">
-                    $199.00
+                    $<?= $row->price ?>
                 </div>
                 <div class="col-xs-12 col-sm-3 center">
                     <div class="row">
@@ -40,7 +39,7 @@
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-3 center">
-                    $199.00
+                    $<?= $row->price ?>
                 </div>
             </div>
             <hr></hr>
@@ -50,7 +49,7 @@
                 <div class="col-xs-12 col-sm-3 center">
                     <h5 class="center">Subtotal</h5></div>
                 <div class="col-xs-12 col-sm-3 center">
-                    <h5 class="center">$199.00</h5></div>
+                    <h5 class="center">$<?= ($row->price * $amount) ?></h5></div>
             </div>
             <hr></hr>
         </div>
@@ -65,14 +64,4 @@
                 </a>
             </div>
         </div>
-        <nav class="navbar navbar-default navbar-bottom mt-5" role="navigation">
-            <div class="container">
-                <div class="row">
-                    <ol><img src="images/facebook.png"><img src="images/twitter.png"><img src="images/googleplus.png"><img src="images/instagram.png"><img src="images/youtube.png"></ol>
-                </div>
-            </div>
-        </nav>
         <?php include "partials/footer.html";?>
-</body>
-
-</html>

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <?php include "partials/head.html";?>
 <body id="products-single">
     <?php include "partials/nav.html";?>
@@ -219,6 +219,3 @@ Turn on air-conditioning before you get home, enjoy warm time when you get home.
         </div>
     </div>
     <?php include "partials/footer.html";?>
-</body>
-
-</html>

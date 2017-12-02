@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <?php include "partials/head.html";?>
 
 <body class="products-list">
@@ -30,6 +30,3 @@
 
     <?php include "partials/footer.html";?>
     
-</body>
-
-</html>

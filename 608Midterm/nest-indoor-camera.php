@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <?php include "partials/head.html";?>
 
 <body id="products-single">
@@ -238,6 +238,3 @@ If you subscribe to Nest Aware, your camera streams all video to the cloud for s
         </div>
     </div>
     <?php include "partials/footer.html";?>
-</body>
-
-</html>

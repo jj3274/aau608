@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
  <?php include "partials/head.html";?>
 
 <body id="products-single">
@@ -208,6 +208,3 @@
         </div>
     </div>
      <?php include "partials/footer.html";?>
-</body>
-
-</html>

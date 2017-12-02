@@ -1,7 +1,4 @@
-<!DOCTYPE html>
-
-    
-    <?php include "partials/head.html";?>
+<?php include "partials/head.html";?>
 
 <body class="products-list">
     
@@ -26,9 +23,9 @@
                 <img src="images/apple3.jpg" alt="sample image">
                 <h5 class="mt-4">Apple TV</h5>
                 <h7>$199.99</h7></a>
-                        </section>
-            </div>
-            <div class="row justify-content-around">
+            </section>
+        </div>
+        <div class="row justify-content-around">
                 <section class="col-sm-6 col-md-4 col-lg-3">
                     <a class="product-1" href="google-home.php">
                 <img src="images/googlehome2.jpg" alt="googlehome">
@@ -86,6 +83,3 @@
             </div>
         </div>
          <?php include "partials/footer.html";?>
-</body>
-
-</html>

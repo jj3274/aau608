@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
  <?php include "partials/head.html";?>
 <body>
     <?php include "partials/nav.html";?>
@@ -45,6 +45,3 @@
     </div>
     </div>
     <?php include "partials/footer.html";?>
-</body>
-
-</html>
