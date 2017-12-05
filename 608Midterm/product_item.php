@@ -1,5 +1,4 @@
 <?php
-
 include_once "lib/php/print_o.php";
 include_once "db_connect.php";
 
@@ -31,7 +30,8 @@ if(!isset($_GET['id'])) {
 
 	// show the data after it's all ready
 	?>
-	
+
+
 	<div class="container second" id="product-section">
         <div class="row">
             <div class="col-6">
@@ -115,7 +115,7 @@ if(!isset($_GET['id'])) {
                 </div>
                 <div class="add row mt-4">
                     <div class="col-6">
-                        <a href="cart.php">
+                        <a href="cart.php?action=addToCart&id=<?= $row->id ?>">
                             <button type="button" class="btn btn-primary btn-rounded">ADD TO CART</button>
                         </a>
                         <a class="spec ml-3" href="#" data-toggle="modal" data-target="#myModal"><u><small>SPECS</small></u></a>

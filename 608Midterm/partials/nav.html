@@ -10,17 +10,18 @@
                 <li class="nav-item dropdown col-12 col-lg-auto center">
                     <a class="nav-link dropdown-toggle" data-toggle="dropdown" id="Preview" href="#" role="button" aria-haspopup="true" aria-expanded="false">Products & Services</a>
                     <div class="dropdown-menu" aria-labelledby="Preview">
-                        <a class="dropdown-item" href="product_list.php?product_type=control">Control</a>
-                        <a class="dropdown-item" href="product_list.php?product_type=security_camera">Security & Cameras</a>
-                        <a class="dropdown-item" href="product_list.php?product_type=sensor">Sensors</a>
+                        <a class="dropdown-item" href="product_list.php?action=searchByProductType&product_type=control">Control</a>
+                        <a class="dropdown-item" href="product_list.php?action=searchByProductType&product_type=security_camera">Security & Cameras</a>
+                        <a class="dropdown-item" href="product_list.php?action=searchByProductType&product_type=sensor">Sensors</a>
                     </div>
                 </li>
                 <li class="nav-item col-12 col-lg-auto center"><a class="nav-link" href="how-to-install.php">How to install</a></li>
                 <li class="nav-item col-12 col-lg-auto center"><a class="nav-link" href="connect.php">Connect</a></li>
             </ul>
         </div>
-        <form class="form-inline flex-nowrap my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="text" placeholder="Search">
+        <form class="form-inline flex-nowrap my-2 my-lg-0" action="/product_list.php" method="get">
+            <input name="action" value="searchByProductName" hidden>
+            <input name="product_name" class="form-control mr-sm-2" type="text" placeholder="Search">
             <button class="btn btn-outline-warning my-2 my-sm-0 mr-2" type="submit">Go</button>
             <a class="cart-icon mr-5" href="cart.php"> <i class="fa fa-shopping-cart" style="color:#5766a3;"></i></a></a>
         </form>

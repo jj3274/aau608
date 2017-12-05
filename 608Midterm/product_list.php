@@ -11,12 +11,16 @@
 
     <div class="container" id="products">
 		<?php 
-			if (!isset($_GET['product_type'])) {
-				echo "You borked it";
-			} else {
+			if ($_GET['action'] == 'searchByProductName') {
+				$query_string = "SELECT * FROM products WHERE product_name like '%{$_GET['product_name']}%' ORDER BY product_name LIMIT 12";
+			} else if ($_GET['action'] == 'searchByProductType') {
 				$query_string = "SELECT * FROM products WHERE product_type = '{$_GET['product_type']}' ORDER BY product_name LIMIT 12";
-				$result = $conn->query($query_string);
+			} else {
+				echo "You borked it";
+			}
 
+			if (isset($query_string)) {
+				$result = $conn->query($query_string);
 				if($conn->errno) die($conn->error);
 
 				do {
