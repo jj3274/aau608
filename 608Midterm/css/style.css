@@ -51,6 +51,8 @@ footer img {
     width: 50px;
 }
 
+
+    
 /* navbar */
 /*.navbar-toggle .icon-bar:nth-of-type(2) {
       top: 1px;
@@ -391,3 +393,5 @@ footer img {
 /*Extra large devices (large desktops, 1200px and up)*/
 
 @media (min-width: 1200px) {}
+
+

@@ -22,3 +22,5 @@ if($conn->connect_errno) die($conn->connect_error);
 
 header('Content-Type: text/html; charset=UTF-8');
 $conn->set_charset("utf8");
+
+?>

@@ -8,7 +8,7 @@ include_once "db_connect.php";
 
 <body id="products-single">
     <?php include "partials/nav.html";?>
-
+    <?php include "partials/tech_spec.html";?>
 
 <?php 
 
@@ -115,10 +115,10 @@ if(!isset($_GET['id'])) {
                 </div>
                 <div class="add row mt-4">
                     <div class="col-6">
-                        <a href="cart.php?action=addToCart&id=<?= $row->id ?>">
+                        <a href="cart.php?id=<?= $row->id ?>">
                             <button type="button" class="btn btn-primary btn-rounded">ADD TO CART</button>
                         </a>
-                        <a class="spec ml-3" href="#" data-toggle="modal" data-target="#myModal"><u><small>SPECS</small></u></a>
+                        <a class="spec ml-3" href="tech_spec.php" data-toggle="modal" data-target="#myModal"><u><small>SPECS</small></u></a>
                     </div>
                 </div>
             </div>		

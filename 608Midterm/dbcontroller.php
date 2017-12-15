@@ -1,10 +1,12 @@
 <?php
-$host = "localhost";
-$userId = "wnm608smarthome";
-$password = "phpwnm608";
-$database = "smarthome database";
+include_once "db_connect.php";
 
-$link = mysqli_connect($host, $userId, $password, $database);
+$link = mysqli_connect(
+	$db_host,
+	$db_name,
+	$db_pass,
+	$db_base
+	);
 
 // Check connection
 
